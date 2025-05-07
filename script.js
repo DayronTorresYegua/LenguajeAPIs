@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         fetch(`https://pokeapi.co/api/v2/pokemon/${nombreNormalizado}`)
             .then(response => {
                 if (!response.ok) {
-                    throw new Error('Pokémon no encontrado');
+                    alert ('Pokémon no encontrado');
                 }
                 return response.json();
             })
