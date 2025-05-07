@@ -10,11 +10,7 @@
     "correo": {
       "type": "string",
       "format": "email"
-    },
-    "fechaAlta": {
-      "type": "string",
-      "format": "date-time"
     }
   },
-  "required": ["nombre", "correo", "fechaAlta"]
+  "required": ["nombre", "correo"]
 }
